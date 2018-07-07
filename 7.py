@@ -1,6 +1,6 @@
-a=input()
+a=inp()
 if a.isalpha():
-    print("Invalid")
+    print("Invalid Input")
 else:
     a=int(a)
     for i in range(a):
