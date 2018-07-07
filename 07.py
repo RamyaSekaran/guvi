@@ -1,4 +1,4 @@
-a=inp()
+a=input()
 if a.isalpha():
     print("Invalid Input")
 else:
