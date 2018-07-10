@@ -1,0 +1,11 @@
+a=int(input())
+b=a
+rev=int(0)
+while(b!=0):
+    d=b%10
+    rev=int(d+(rev*10))
+    b=int(b/10)
+if(rev==a):
+    print("yes")
+else:
+    print("no")
