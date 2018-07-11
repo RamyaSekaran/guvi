@@ -4,4 +4,7 @@ if a.isalpha():
 else:
 	a=int(a)
 	for i in range(1,6):
-		print(a*i)
+		if(i==5):
+			print(a*i)
+		else:
+		    print(a*i,end=' ')
