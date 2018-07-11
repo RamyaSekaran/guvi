@@ -1,5 +1,4 @@
-a=input()
-b=input()
+a,b=input().split()
 count=0
 if a.isalpha() or b.isalpha():
     print("invalid")
